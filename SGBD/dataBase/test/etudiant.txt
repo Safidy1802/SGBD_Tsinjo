@@ -1,0 +1,3 @@
+idEtudiant:1:int,nom:Rason:varchar,prenom:Fafa:varchar
+idEtudiant:2:int,nom:Randria:varchar,prenom:Rene:varchar
+idEtudiant:3:int,nom:Andriamanana:varchar,prenom:Jean:varchar

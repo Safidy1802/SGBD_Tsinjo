@@ -1,0 +1,75 @@
+
+Racine/Bdd1
+      /Bdd2
+        roles:  _creer use nouvelle base de donnee
+                _verifie les bases existantes
+                _supprime une base de donnee
+
+Bdd1/Relation1
+    /Relation2
+        roles:  _creer une nouvelle Relation
+                _verifie les Relation existantes
+                _supprime une Relation
+                _retourne une Relation
+
+Relation:Ligne1
+         Ligne2
+         Ligne3
+        roles:  _contient les donnees
+                _efface les donnees
+                _retourne les donnees
+
+Ligne:  | nom_colonne1, valeur_colonne1, type_colonne1 | nom_colonne2, valeur_colonne2, type_colonne2 |
+        -----------------------------------------------------------------------------------------------
+        | idEtudiant,   1              , int           | nom,          Rakoto,          varchar       |
+        roles:  _contient une ligne d'infoprmation
+
+
+Requete:Mot1
+        Mot2
+        roles:  _contient la requete du client
+                _execute la requete du client
+
+Mot:syntaxe
+    next
+    prev
+    args
+    action
+        roles:  _identifiant d'un mot cle
+
+
+ex: select nom idEtudiant from personne etudiant soustraction 
+
+        | Mot1   | Mot2                | Mot3         |
+------------------------------------------------------|
+syntaxe | select | from                | soustraction |
+next    | Mot2   | Mot3                | NULL         |
+prev    | NULL   | Mot1                | Mot2         |
+args    | nom    | personne, etudiant  | NULL         |
+action  | NULL   | NULL                | soustraction |
+
+Grammaire: vocabulaire (liste mots clés)
+        roles:  _verifie la requete du client
+
+FunctReq:   listes fonctionnalites
+
+client:    
+        roles:  _mandefa Requete
+                _mandray reponse
+
+Server:     `
+        roles:  _madray client vaovao
+                _mamorona Thread ho an'ny client vaovao
+
+ThreadRequest:  
+        roles:  _mitraiter Requete
+                _mandefa reponse any am client
+
+
+
+
+
+
+
+
+

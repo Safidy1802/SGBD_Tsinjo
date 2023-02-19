@@ -1,0 +1,3 @@
+idPersonne:1:int,nom:Razama:varchar,prenom:Koto:varchar
+idPersonne:1:int,nom:Ranarison:varchar,prenom:Diary:varchar
+idPersonne:3:int,nom:Randria:varchar,prenom:Jean:varchar

@@ -1,0 +1,2 @@
+idCours:c1:varchar,nomCours:Algo:varchar
+idCours:c2:varchar,nomCours:prog:varchar

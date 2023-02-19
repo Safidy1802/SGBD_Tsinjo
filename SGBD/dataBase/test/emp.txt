@@ -1,0 +1,1 @@
+idEmp:1:int,nom:Andriamanana:varchar,prenom:Jean:varchar,salaire:2000.500:double

@@ -1,0 +1,5 @@
+idEtudiant:2:int,idCours:c2:varchar
+idEtudiant:1:int,idCours:c2:varchar
+idEtudiant:1:int,idCours:c1:varchar
+idEtudiant:3:int,idCours:c1:varchar
+idEtudiant:2:int,idCours:c1:varchar
